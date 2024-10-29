@@ -49,11 +49,11 @@ Warn: Warn message with type WARNING
 ```
 
 ## Key Takeaways
-- The Singleton Design Pattern ensures that a class has only one instance and provides a global point of access to that instance.
+- The Singleton Design Pattern ensures that a class has only one instance and provides a global access point to that instance.
 - The logger is implemented with thread-safe lazy instantiation, which ensures that the instance is only created when needed.
-- Using an enum for `LogLevel` makes the code cleaner and ensures that only predefined log levels are used.
+- Using an enum for `LogLevel` makes the code cleaner and ensures only predefined log levels are used.
 
-##Usage
+## Usage
 1. Clone the repository and navigate to the project directory.
 2. Compile the project files.
-3. Run the `Main` class to see the Singleton Logger in action.
+3. Run the `Main` class to see the Singleton Logger.
